@@ -6,7 +6,7 @@
 exports.view = function(req, res){
   var nameToShow = req.params.userName;
   console.log("Name is " + nameToShow)
-  res.render('index', {
+  res.render('hello', {
   	'name': nameToShow,
   });
 };
