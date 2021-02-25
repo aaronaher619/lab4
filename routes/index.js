@@ -6,7 +6,7 @@
 exports.view = function(req, res){
   res.render('index', {
     "projects": [
-      { 
+      {
         "name": "Waiting in line",
         "image": "lorempixel.people.1.jpeg",
         "id": "project1"
@@ -45,7 +45,7 @@ exports.view = function(req, res){
         "name": "Design tools",
         "image": "lorempixel.city.2.jpeg",
         "id": "project8"
-      },
+      }
     ]
   });
 };
